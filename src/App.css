@@ -1,5 +1,14 @@
+body {
+  background: #c39266;
+  font-family: monospace;
+  color: #effafe;
+}
+
 .App {
   text-align: center;
+}
+.App h1 {
+  font-weight: 700;
 }
 
 .App-logo {
@@ -27,12 +36,40 @@
 .App-link {
   color: #61dafb;
 }
+.app-container {
+  height: 500px;
+}
+.submit {
+  background: #f6af71;
+  font-weight: 600;
+}
+.input-text {
+  background: #2b2b2b;
+  color: #fcfdfe;
+}
+.input-text:focus {
+  background: #2b2b2b;
+  color: #fcfdfe;
+}
+.input-text::placeholder {
+  color: #fcfdfe;
+  opacity: 70%;
+}
+.text-on-input:disabled {
+  background: transparent;
+  color: #fcfdfe;
+}
+.checked {
+  background: transparent;
+  color: #fcfdfe;
+  text-decoration: line-through;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-field {
+  justify-content: start;
+  padding: 0px;
+}
+.todo-field .btn {
+  display: inline;
+  font-size: 11px;
 }
